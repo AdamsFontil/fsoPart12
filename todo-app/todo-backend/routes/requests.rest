@@ -1,0 +1,28 @@
+### Fetch all todos - GET Request
+GET http://localhost:3000/todos
+
+### Add a new todo - POST Request
+POST http://localhost:3000/todos
+Content-Type: application/json
+
+{
+  "text": "Sample Todo 2",
+  "done": true
+}
+
+### Delete a specific todo - DELETE Request
+DELETE http://localhost:3000/todos/64d04b982266bb7f50a29562
+
+
+### GET a specific todo - GET Request
+GET http://localhost:3000/todos/64d04b8c2266bb7f50a29560
+
+
+### UPDATE a new todo - PUT Request
+PUT http://localhost:3000/todos/64d04b8c2266bb7f50a29560
+Content-Type: application/json
+
+{
+  "text": "Sample Todo 2",
+  "done": true
+}

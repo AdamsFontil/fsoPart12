@@ -1,12 +1,15 @@
 ### Fetch all todos - GET Request
 GET http://localhost:3000/todos
 
+### Fetch stats - GET Request
+GET http://localhost:3000/statistics
+
 ### Add a new todo - POST Request
 POST http://localhost:3000/todos
 Content-Type: application/json
 
 {
-  "text": "Sample Todo 2",
+  "text": "reset counter",
   "done": true
 }
 

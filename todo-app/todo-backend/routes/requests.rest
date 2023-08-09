@@ -9,7 +9,7 @@ POST http://localhost:3000/todos
 Content-Type: application/json
 
 {
-  "text": "reset counter",
+  "text": "confirm persistence",
   "done": true
 }
 
